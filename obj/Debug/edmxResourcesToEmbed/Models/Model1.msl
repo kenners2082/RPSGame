@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="RPSGameDBModelStoreContainer" CdmEntityContainer="RPSGameDBEntities">
+    <EntitySetMapping Name="Scoreboards">
+      <EntityTypeMapping TypeName="RPSGameDBModel.Scoreboard">
+        <MappingFragment StoreEntitySet="Scoreboard">
+          <ScalarProperty Name="GameId" ColumnName="GameId" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="CompScore" ColumnName="CompScore" />
+          <ScalarProperty Name="PlayerScore" ColumnName="PlayerScore" />
+          <ScalarProperty Name="Result" ColumnName="Result" />
+          <ScalarProperty Name="NumOfRounds" ColumnName="NumOfRounds" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

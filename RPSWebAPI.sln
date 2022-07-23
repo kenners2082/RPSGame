@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPSWebAPI", "RPSWebAPI.csproj", "{CBD1CC37-5B8B-49AB-BB38-FD61469AC05B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPSWebAPI.Tests", "..\RPSWebAPI.Tests\RPSWebAPI.Tests.csproj", "{7934F542-DC40-456D-B4D9-964FD7825BBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBD1CC37-5B8B-49AB-BB38-FD61469AC05B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBD1CC37-5B8B-49AB-BB38-FD61469AC05B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBD1CC37-5B8B-49AB-BB38-FD61469AC05B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBD1CC37-5B8B-49AB-BB38-FD61469AC05B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7934F542-DC40-456D-B4D9-964FD7825BBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7934F542-DC40-456D-B4D9-964FD7825BBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7934F542-DC40-456D-B4D9-964FD7825BBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7934F542-DC40-456D-B4D9-964FD7825BBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EFBFC4B-75B9-4A8C-A978-E86726647DF1}
+	EndGlobalSection
+EndGlobal
